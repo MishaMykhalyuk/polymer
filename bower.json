@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "polymer": "~1.2.3",
-    "google-map": "~1.1.7"
+    "google-map": "~1.1.7",
+    "country-flags": "hjnilsson/country-flags"
   }
 }

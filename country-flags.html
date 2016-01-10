@@ -1,0 +1,26 @@
+<dom-module id="country-flag">
+	<style></style>
+
+	<template>
+		<section>
+			<img src="{{ country_flag }}">
+			<p>{{ country_name }}</p>
+		</section>
+	</template>
+
+	<script>
+		Polymer({
+			is: "country-flag",
+			properties: {
+				country_name: {
+					type: String,
+					value: "USA"
+				},
+				country_flag: {
+					type: String,
+					value: "./bower_components/country-flags/png250px/us.png"
+				}
+			}
+		})
+	</script>
+</dom-module>
